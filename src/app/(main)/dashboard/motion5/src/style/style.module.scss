@@ -1,0 +1,50 @@
+.container {
+  height: 40px;
+
+  width: 80px;
+
+  background-color: white;
+
+  border-radius: 25px;
+
+  display: flex;
+
+  align-items: center;
+
+  box-sizing: border-box;
+
+  padding: 0 5px;
+
+  cursor: pointer;
+
+  transition: all 0.3s;
+
+  box-shadow: 8px 13px 36px -12px rgba(0, 0, 0, 0.34);
+  -webkit-box-shadow: 8px 13px 36px -12px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 8px 13px 36px -12px rgba(0, 0, 0, 0.34);
+
+  &[data-darkmode="true"] {
+    .handle {
+      background-color: #501a96;
+    }
+  }
+}
+
+.handle {
+  height: 30px;
+
+  width: 30px;
+
+  border-radius: 50%;
+
+  display: grid;
+
+  align-items: center;
+
+  justify-items: center;
+
+  background-color: skyblue;
+
+  overflow: hidden;
+  z-index: 1;
+}
